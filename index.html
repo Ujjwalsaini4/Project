@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>amazon_clone</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+
+                <div class="nav-logo border">
+                    <div class="logo"></div>
+                </div>
+
+                <div class="location">
+                    <p class="top-text">Delever to</p>
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="bottom-text">India</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="nav-center">
+                <select class="search-dropdown">
+                    <option>All</option>
+                    <option>All Departments</option>
+                    <option>Arts & Crafts</option>
+                    <option>Automotive</option>
+                    <option>Baby</option>
+                    <option>Beauty & Personal Care</option>
+                    <option>Book</option>
+                    <option>Boys' Fashion</option>
+                    <option>Computer</option>
+                    <option>Deals</option>
+                    <option>Digital Music</option>
+                    <option>Electronics</option>
+                    <option>Health & Household</option>
+                    <option>Home kit</option>
+                    <option>Software</option>
+                    <option>Toys & Games</option>
+                    <option>Tools & Home Improvement</option>
+                    <option>Video Games</option>
+
+                </select>
+                <input class="search-box" type="text" placeholder="Search Amazon">
+
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #28416c;"></i>
+                </div>
+
+            </div>
+
+            <div class="nav-right">
+                <div class="language-option">
+                    <div class="flag">
+                        <i class="fa-regular fa-flag"></i>
+                    </div>
+                    <select class="select-language">
+                        <option value="lan">EN</option>
+                        <option value="lan">ES</option>
+                        <option value="lan">AR</option>
+                    </select>
+                </div>
+
+                <div class="account-option">
+                    <p class="top-tex"><span>Hello, sign in</span></p>
+                    <select class="select-account">
+                        <option value="account"> Account & Lists </option>
+                        <option value="account"> Ujjwal saini </option>
+                        <option value="account"> Ujjwal </option>
+                    </select>
+                </div>
+
+                <div class="order-option">
+                    <p class="top-texts">
+                        <span>Returns</span>
+                    </p>
+                    <p class="bottom-text">
+                        & Orders
+                    </p>
+                </div>
+
+                <div class="cart-option">
+                    <div class="cart-logo">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <p>Cart</p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="nav-options">
+            <div class="all-logo">
+                <i class="fa-solid fa-bars"></i>
+                <p class="list">All</p>
+            </div>
+
+            <div class="options">
+                <a href="#">Today's Deals</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Registry</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Sell</a>
+            </div>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div class="slides-container">
+
+                <!--------------------------------- slide 1-------------------------- -->
+
+                <div id="slide1" class="slide">
+                    <div class="content">
+                        <img src="images/Main-background-image-1.jpg">
+                    </div>
+                    <a href="#slide3" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide2" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+
+                <!--------------------------------- slide 2 -------------------------- -->
+
+                <div id="slide2" class="slide">
+                    <div class="content">
+                        <img src="images/Main-background-image-2.jpg">
+                    </div>
+                    <a href="#slide1" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide3" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+
+                <!--------------------------------- slide 3 -------------------------- -->
+
+                <div id="slide3" class="slide">
+                    <div class="content">
+                        <img src="images/Main-background-image-3.jpg">
+                    </div>
+                    <a href="#slide2" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide4" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+
+                <!--------------------------------- slide 4 -------------------------- -->
+
+                <div id="slide4" class="slide">
+                    <div class="content">
+                        <img src="images/Main-background-image-4.jpg">
+                    </div>
+                    <a href="#slide3" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide1" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text">
+                <p>
+                    You are on amazon.com. You can also shop
+                    on Amazon India for millions of products
+                    with fast local delivery.
+                    <a href="https://www.amazon.com/ref=nav_logo">
+                        Click here to go to amazon.in
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- ------------------------ slide Ends -------------------------- -->
+        <!-- ------------------------items-container-------------------------- -->
+
+        <div class="items-container">
+
+            <div class="box">
+                <div class="box-items">
+                    <h2>Gaming accessories</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Gaming-accessories/gamein-headsets.jpg);"></div>
+                            <p><span>Heardsets</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Gaming-accessories/keyboards.jpg);"></div>
+                            <p><span>Keyboards</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Gaming-accessories/mouse.jpg);">
+                            </div>
+                            <p><span>Computer mic</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Gaming-accessories/chairs.jpg);">
+                            </div>
+                            <p><span>chairs</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+            <div class="box4 box">
+                <div class="box-items">
+                    <h2>New home arrivals under $50</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/New-home-arrivals/kitchen.jpg);">
+                            </div>
+                            <p><span>Kitchen & dining</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/New-home-arrivals/home\ improvement.jpg);"></div>
+                            <p><span>Home improvement</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/New-home-arrivals/Home_Flip_Summer_.jpg);"></div>
+                            <p><span>Decor</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/New-home-arrivals/bedding.jpg);">
+                            </div>
+                            <p><span>Bedding & bath</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+            <div class="box4 box">
+                <div class="box-items">
+                    <h2>Shop deals in Fashion</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion/jeanse.jpg);"></div>
+                            <p><span>Jeanse under $50</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion/tops.jpg);"></div>
+                            <p><span>Tops under $25</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion/dresses.jpg);"></div>
+                            <p><span>dresses under $30</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion/shoes.jpg);"></div>
+                            <p><span>shoes under $40</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+
+            <div class="box4 box">
+                <div class="box-items">
+                    <h2>Refresh your space</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Refresh-your-space/Dining.jpg);">
+                            </div>
+                            <p><span>Dining</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Refresh-your-space/Home.jpg);">
+                            </div>
+                            <p><span>Home</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Refresh-your-space/kitchen.jpg);">
+                            </div>
+                            <p><span>Kitchen</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Refresh-your-space/Health\ and\ Beauty.jpg);"></div>
+                            <p><span>Health and Beauty</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+
+
+            <!-- --------------------------------------------------------------------------------------------------------- -->
+            <div class="box1 box">
+                <div class="box-items">
+                    <h2>Toys under $25</h2>
+                    <div class="box-image" style="background-image: url(images/single-image/toy.jpg);"></div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-items">
+                    <h2>Beauty steals under $25</h2>
+                    <div class="box-image" style="background-image: url(images/single-image/Beauty.jpg);"></div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-items">
+                    <h2>Get your game on</h2>
+                    <div class="box-image" style="background-image: url(images/single-image/gameing-pc.jpg);"></div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+            <div class="box4 box">
+                <div class="box-items">
+                    <h2>Fashion trends you like</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion-trends/img-1.jpg);"></div>
+                            <p><span>Dresses</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion-trends/img-2.jpg);"></div>
+                            <p><span>Kints</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion-trends/img-3.jpg);"></div>
+                            <p><span>Jeckets</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Fashion-trends/img-4.jpg);"></div>
+                            <p><span>Jewelry</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------------------------------------->
+
+            <div class="toll-container">
+                <div class="box-items">
+                    <div class="toll-title">
+                        <h2>Top picks for India</h2>
+                    </div>
+                    <div class="toll-container-2">
+                        <div>
+                            <img src="images/toll-container/img-1.jpg" alt="Acell Battery">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-2.jpg" alt="Sewing Kit">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-3.jpg" alt="Medieval Helmet">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-4.jpg" alt="Copper Knee Brace">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-6.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-8.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-9.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-10.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/toll-container/img-11.jpg" alt="Flower Bouquet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="toll-container">
+                <div class="box-items">
+                    <div class="toll-title">
+                        <h2>Most wished for in Video Games</h2>
+                    </div>
+                    <div class="toll-container-2">
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-1.jpg" alt="Acell Battery">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-2.jpg" alt="Sewing Kit">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-3.jpg" alt="Medieval Helmet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-4.jpg" alt="Copper Knee Brace">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-5.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-6.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-7.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-8.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-9.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-10.jpg" alt="Flower Bouquet">
+                        </div>
+                        <div>
+                            <img src="images/Most-wished-Video-Games/img-11.jpg" alt="Flower Bouquet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-items">
+                    <h2>Most-loved travel essentials</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Most-loved-travel-essentials/img-1.jpg);"></div>
+                            <p><span>Backpacks</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Most-loved-travel-essentials/img-2.jpg);"></div>
+                            <p><span>Suitcases</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Most-loved-travel-essentials/img-3.jpg);">
+                            </div>
+                            <p><span>Accessories</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img"
+                                style="background-image: url(images/Most-loved-travel-essentials/img-4.jpg);">
+                            </div>
+                            <p><span>Handbags</span></p>
+                        </div>
+                    </div>
+                    <p><span>Discover more</span></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-items">
+                    <h2>Wireless Tech</h2><br>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Wireless-Tech/img-1.jpg);"></div>
+                            <p><span>Smartphones</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Wireless-Tech/img-2.jpg);"></div>
+                            <p><span>Watches</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Wireless-Tech/img-3.jpg);">
+                            </div>
+                            <p><span>Headphones</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/Wireless-Tech/img-4.jpg);">
+                            </div>
+                            <p><span>Tablets</span></p>
+                        </div>
+                    </div>
+                    <p><span>Discover more</span></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-items">
+                    <h2>Most-loved for Back to School</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/school/img-1.jpg);"></div>
+                            <p><span>School Supplies</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/school/2.jpg);"></div>
+                            <p><span>School-ready styles</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/school/3.jpg);">
+                            </div>
+                            <p><span>Electronics</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/school/4.jpg);">
+                            </div>
+                            <p><span>Presonal care</span></p>
+                        </div>
+                    </div>
+                    <p><span>Shop all</span></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-items">
+                    <h2>Score the top PCs & Accessories</h2>
+                    <div class="box-core">
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/pc/1.jpg);"></div>
+                            <p><span>Desktops</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/pc/2.jpg);"></div>
+                            <p><span>Laptops</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/pc/3.jpg);"></div>
+                            <p><span>Hard Drive</span></p>
+                        </div>
+                        <div class="box-core-image">
+                            <div class="box-img" style="background-image: url(images/pc/4.jpg);"></div>
+                            <p><span>Pc Accessories</span></p>
+                        </div>
+                    </div>
+                    <p><span>See more</span></p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------items-containe End---------------------------------->
+        </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="foot-panel-1"><a href="">Back to top</a></div>
+        <div class="foot-panel-2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href=""> Amazon Science</a>
+            </ul>
+            <ul>
+                <p> Make Money with Us</p>
+                <a href="">Sell products on Amazon</a>
+                <a href=""> Sell on Amazon Business</a>
+                <a href="">Sell apps on Amazon</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Self-Publish with Us</a>
+                <a href="">Host an Amazon Hub</a>
+                <a href="">›See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p> Amazon Payment Products</p>
+                <a href=""> Amazon Business Card</a>
+                <a href="">Shop with Points</a>
+                <a href="">Reload Your Balance</a>
+                <a href=""> Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a> Amazon and COVID-19</a>
+                <a > Your Account</a>
+                <a > Your Orders</a>
+                <a > Shipping Rates & Policies</a>
+                <a >Returns & Replacements</a>
+                <a >Manage Your Content and Devices</a>
+                <a > Help</a>
+            </ul>
+        </div>
+        <div class="panel-3">
+            <div class="panel-logo"> </div>
+        </div>
+        <div class="panel-4"> 
+            <div class="page">
+                <a> Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Consumer Health Data Privacy Disclosure</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright"><p>© 1996-2024, Amazon.com, Inc. or its affiliates</p></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
