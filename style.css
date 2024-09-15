@@ -377,9 +377,9 @@ main {
 .items-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.7rem;
+    gap: 1rem;
     background-color: transparent;
-    transform: translateY(-14%);
+    transform: translateY(-15%);
 }
 
 
@@ -387,7 +387,7 @@ main {
 
 .box {
     height: 400px;
-    width: 23.2%;
+    width: 23.8%;
     background-color: white;
     padding: 20px 0px 15px;
     cursor: pointer;
